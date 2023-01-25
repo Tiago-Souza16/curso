@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Decodificador</title>
+	<link rel="stylesheet" href= "reset.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href= "style.css">
+</head>
+<body>
+	<header>
+		<img class="logoAlura" src="logo.png">
+		
+	</header>
+
+	<main>
+		<section>
+			<textarea id ="areatxt1" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+			<div class="div1">
+				<h6>Digite apenas letras minúsculas e sem acentos</h6>
+
+			</div>
+
+			<div class="botoes">
+				<input class="clica" type="button" value="criptografar" onclick="btnencriptar()">
+				<input class="clica2" type="button" value="descriptografar" onclick="btndesencriptar()">
+				
+			</div>
+			
+		</section>
+			
+		
+		<section>
+			<textarea cols="20" rows="10"placeholder="." id="areatxt2"></textarea>
+			<div>
+
+				<input class="copiar" type="button" value="Copiar" onclick="copiar()">
+				<input class="limpar" type="button" value="Limpar" onclick="limpar()">
+
+			</div>
+
+		</section>
+		
+	</main>
+
+	<footer>
+		<p>Programa feito por Tiago Souza turma 4</p>
+		
+	</footer>
+	<script src="script.js"></script>
+
+</body>
+</html>

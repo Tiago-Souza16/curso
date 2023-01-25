@@ -1,0 +1,78 @@
+*{
+	background: #E5E5E5;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+.logoAlura{
+	width: 68px;
+	height: 48px;
+	margin-left: 34px;
+	color: #0A3871;
+	padding-top: 12px;
+
+}
+
+#areatxt1{
+	border: none;
+	color: #0A3871;
+	margin-top: 90px;
+	margin-left: 20px;
+}
+
+
+
+section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.div1{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	
+}
+
+#areatxt2{
+	border: none;
+	background: white;
+	background-repeat: no-repeat;
+	color: #0A3871;
+	margin-left: 98px;
+	margin-top: 20px;
+	padding-left: 20px;
+	width: 400px;
+	height: 444px;
+	text-align: 
+
+}
+
+#areatxt2:placeholder-shown{
+	background-image: url(boneco.png);
+}
+
+
+.botoes{
+	display: inline;
+	margin-top: 20px;
+	height: 60px;
+	width: 20px;
+	margin-left: 20px;
+
+}
+
+div input{
+	background: #0A3871;
+}
+
+.copiar{
+	margin-left: 100px;
+}
+
+.clica , .clica2 , .copiar , .limpar{
+	border-radius: 24px;
+}
+
